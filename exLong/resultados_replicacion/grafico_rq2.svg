@@ -1,0 +1,19 @@
+<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+<rect width="100%" height="100%" fill="#f8f9fa"/>
+<text x="300.0" y="40" font-family="Arial" font-size="20" font-weight="bold" text-anchor="middle">RQ2: Machine-oriented Use Case</text>
+<rect x="150.0" y="193.0211081794195" width="40" height="126.97889182058047" fill="#2ecc71"/>
+<text x="170.0" y="340" font-family="Arial" font-size="12" text-anchor="middle" transform="rotate(20 170.0 340)">exLong Coverage</text>
+<text x="170.0" y="183.0211081794195" font-family="Arial" font-size="12" font-weight="bold" text-anchor="middle">38.5</text>
+<rect x="210.0" y="236.2269129287599" width="40" height="83.7730870712401" fill="#e74c3c"/>
+<text x="230.0" y="340" font-family="Arial" font-size="12" text-anchor="middle" transform="rotate(20 230.0 340)">Baseline (LLM) Coverage</text>
+<text x="230.0" y="226.2269129287599" font-family="Arial" font-size="12" font-weight="bold" text-anchor="middle">25.4</text>
+<rect x="270.0" y="247.11081794195252" width="40" height="72.8891820580475" fill="#e74c3c"/>
+<text x="290.0" y="340" font-family="Arial" font-size="12" text-anchor="middle" transform="rotate(20 290.0 340)">EvoSuite Coverage</text>
+<text x="290.0" y="237.11081794195252" font-family="Arial" font-size="12" font-weight="bold" text-anchor="middle">22.1</text>
+<rect x="330.0" y="70.0" width="40" height="250.0" fill="#e74c3c"/>
+<text x="350.0" y="340" font-family="Arial" font-size="12" text-anchor="middle" transform="rotate(20 350.0 340)">Compilation Rate</text>
+<text x="350.0" y="60.0" font-family="Arial" font-size="12" font-weight="bold" text-anchor="middle">75.8</text>
+<rect x="390.0" y="114.1952506596306" width="40" height="205.8047493403694" fill="#e74c3c"/>
+<text x="410.0" y="340" font-family="Arial" font-size="12" text-anchor="middle" transform="rotate(20 410.0 340)">Target Exception Matched</text>
+<text x="410.0" y="104.1952506596306" font-family="Arial" font-size="12" font-weight="bold" text-anchor="middle">62.4</text>
+</svg>

@@ -1,0 +1,7 @@
+{
+    "Similarity (BLEU)": 45.2,
+    "CodeBLEU": 48.7,
+    "Compilation Rate": 82.5,
+    "Execution Rate (Runnable)": 78.3,
+    "Target Statement Coverage": 42.1
+}

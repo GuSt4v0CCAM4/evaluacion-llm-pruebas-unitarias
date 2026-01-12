@@ -1,0 +1,7 @@
+{
+    "exLong Coverage": 38.5,
+    "Baseline (LLM) Coverage": 25.4,
+    "EvoSuite Coverage": 22.1,
+    "Compilation Rate": 75.8,
+    "Target Exception Matched": 62.4
+}
