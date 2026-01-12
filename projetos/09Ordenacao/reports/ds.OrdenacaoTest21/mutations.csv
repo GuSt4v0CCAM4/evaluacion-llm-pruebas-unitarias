@@ -42,7 +42,7 @@ Ordenacao.java,ds.Ordenacao,org.pitest.mutationtest.engine.gregor.mutators.exper
 Ordenacao.java,ds.Ordenacao,org.pitest.mutationtest.engine.gregor.mutators.experimental.RemoveIncrementsMutator,merge,11,KILLED,ds.OrdenacaoTest21.testMergeSortWithReverseSortedArray(ds.OrdenacaoTest21)
 Ordenacao.java,ds.Ordenacao,org.pitest.mutationtest.engine.gregor.mutators.experimental.RemoveIncrementsMutator,merge,13,KILLED,ds.OrdenacaoTest21.testMergeSortWithReverseSortedArray(ds.OrdenacaoTest21)
 Ordenacao.java,ds.Ordenacao,org.pitest.mutationtest.engine.gregor.mutators.experimental.RemoveIncrementsMutator,merge,13,KILLED,ds.OrdenacaoTest21.testMergeSortWithReverseSortedArray(ds.OrdenacaoTest21)
-Ordenacao.java,ds.Ordenacao,org.pitest.mutationtest.engine.gregor.mutators.ConditionalsBoundaryMutator,mergeSort,16,KILLED,ds.OrdenacaoTest21.testMergeSortWithSingleElement(ds.OrdenacaoTest21)
+Ordenacao.java,ds.Ordenacao,org.pitest.mutationtest.engine.gregor.mutators.ConditionalsBoundaryMutator,mergeSort,16,KILLED,ds.OrdenacaoTest21.testMergeSortWithReverseSortedArray(ds.OrdenacaoTest21)
 Ordenacao.java,ds.Ordenacao,org.pitest.mutationtest.engine.gregor.mutators.InlineConstantMutator,mergeSort,17,KILLED,ds.OrdenacaoTest21.testMergeSortWithReverseSortedArray(ds.OrdenacaoTest21)
 Ordenacao.java,ds.Ordenacao,org.pitest.mutationtest.engine.gregor.mutators.InlineConstantMutator,mergeSort,19,KILLED,ds.OrdenacaoTest21.testMergeSortWithReverseSortedArray(ds.OrdenacaoTest21)
 Ordenacao.java,ds.Ordenacao,org.pitest.mutationtest.engine.gregor.mutators.MathMutator,mergeSort,17,KILLED,ds.OrdenacaoTest21.testMergeSortWithReverseSortedArray(ds.OrdenacaoTest21)

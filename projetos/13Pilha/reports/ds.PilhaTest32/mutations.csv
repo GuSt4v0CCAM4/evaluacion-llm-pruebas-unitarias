@@ -1,5 +1,5 @@
 Pilha.java,ds.Pilha,org.pitest.mutationtest.engine.gregor.mutators.InlineConstantMutator,<init>,7,KILLED,ds.PilhaTest32.testEmpilhaPilhaCheia(ds.PilhaTest32)
-Pilha.java,ds.Pilha,org.pitest.mutationtest.engine.gregor.mutators.InlineConstantMutator,<init>,7,KILLED,ds.PilhaTest32.testEmpilha(ds.PilhaTest32)
+Pilha.java,ds.Pilha,org.pitest.mutationtest.engine.gregor.mutators.InlineConstantMutator,<init>,7,KILLED,ds.PilhaTest32.testDesempilhaPilhaVazia(ds.PilhaTest32)
 Pilha.java,ds.Pilha,org.pitest.mutationtest.engine.gregor.mutators.experimental.MemberVariableMutator,<init>,7,KILLED,ds.PilhaTest32.testEmpilha(ds.PilhaTest32)
 Pilha.java,ds.Pilha,org.pitest.mutationtest.engine.gregor.mutators.experimental.MemberVariableMutator,<init>,7,SURVIVED,none
 Pilha.java,ds.Pilha,org.pitest.mutationtest.engine.gregor.mutators.ConstructorCallMutator,desempilha,16,SURVIVED,none

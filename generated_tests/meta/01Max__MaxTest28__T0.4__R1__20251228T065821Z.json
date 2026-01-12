@@ -1,0 +1,7 @@
+{
+  "project": "01Max",
+  "class": "/home/aldo/IngSotware/initial-investigation-chatgpt-unit-tests/projetos/01Max/gpt-tests/MaxTest28.java",
+  "temp": 0.4,
+  "run": 1,
+  "error": "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}"
+}

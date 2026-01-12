@@ -4,6 +4,14 @@ import requests
 import re
 
 def read_java_files(folder_path):
+    """Read all Java files from a folder.
+    
+    Args:
+        folder_path: Path to folder containing Java source files
+    
+    Returns:
+        list: List of Java file contents wrapped in code blocks
+    """
     print(f"Lendo códigos fonte {clazz} \n")
     java_files = []
     for file_name in os.listdir(folder_path):
@@ -16,11 +24,21 @@ def read_java_files(folder_path):
     
 
 def request_test_generation(code, clazz, temperature):
+    """Request test generation from ChatGPT API.
+    
+    Args:
+        code: Java source code to generate tests for
+        clazz: Name of the Java class
+        temperature: Temperature parameter for API (0.0-1.0)
+    
+    Returns:
+        str: Generated test code from ChatGPT
+    """
     try: 
         url = "https://api.openai.com/v1/chat/completions"
         headers = {
             "Content-Type": "application/json",
-            "Authorization": "<<INPUT YOUR OPEN AI API KEY HERE>>"
+            "Authorization": "Bearer YOUR_OPENAI_API_KEY_HERE"  # Replace with your actual API key
         }
         data = {
             "model": "gpt-3.5-turbo",
@@ -43,6 +61,19 @@ def request_test_generation(code, clazz, temperature):
         
 
 def extract_code(code, clazz, n, only_code):
+    """Extract and clean Java code from ChatGPT response.
+    
+    Removes markdown code blocks and renames test class appropriately.
+    
+    Args:
+        code: Raw response from ChatGPT
+        clazz: Original class name
+        n: Test number for naming
+        only_code: Whether response is only code (no markdown)
+    
+    Returns:
+        str: Cleaned Java test code
+    """
     code_blocks = []
     is_code = only_code
     class_count = 0
@@ -65,29 +96,34 @@ def extract_code(code, clazz, n, only_code):
     return extracted_code
 
 def remove_other_test_classes(code, clazz, n):
+    """Remove extra test classes, keeping only the first one.
+    
+    Args:
+        code: Raw ChatGPT response
+        clazz: Class name
+        n: Test number
+    
+    Returns:
+        str: Code with only one test class
+    """
     if "```" in code:
         return extract_code(code, clazz, n, False)
     else:
         return extract_code(code, clazz, n, True)
-        
-    # lines = code.split("\n")
-    # n_class = 0
-    # code_with_one_test_class = ""
-    # for line in lines:
-    #     if line.startswith("import") and n_class != 0:
-    #         return code_with_one_test_class
-        
-    #     if line.startswith("public class"):
-    #         n_class = n_class + 1
-            
-    #     if n_class > 1:
-    #         return code_with_one_test_class
-        
-    #     code_with_one_test_class = code_with_one_test_class + "\n" + line
-    # return code_with_one_test_class
             
     
 def generate_tests(code, clazz, temperature, n):
+    """Generate test cases using ChatGPT API.
+    
+    Args:
+        code: Java source code
+        clazz: Class name
+        temperature: API temperature parameter
+        n: Test number
+    
+    Returns:
+        str: Generated test code with proper package declaration
+    """
     generated_tests = request_test_generation(code, clazz, temperature)
     generated_tests = remove_other_test_classes(generated_tests, clazz, n)
     generated_tests.replace("package ds;", "")
@@ -112,6 +148,23 @@ def get_test_path(prj, clazz, number):
 #     tests: 30 - 33: 0.0
 
 def set_temperature(i):
+    """Map test number to temperature value.
+    
+    Temperature mapping for tests 12-33:
+    - Tests 12-14: 0.6
+    - Tests 15-17: 0.5
+    - Tests 18-20: 0.4
+    - Tests 21-23: 0.3
+    - Tests 24-26: 0.2
+    - Tests 27-29: 0.1
+    - Tests 30-33: 0.0
+    
+    Args:
+        i: Test number
+    
+    Returns:
+        float: Temperature value
+    """
     if(i < 15): return 0.6
     if(i < 18): return 0.5
     if(i < 21): return 0.4

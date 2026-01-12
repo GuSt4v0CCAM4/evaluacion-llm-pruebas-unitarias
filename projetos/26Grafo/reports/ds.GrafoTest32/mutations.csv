@@ -3,7 +3,7 @@ Grafo.java,ds.Grafo,org.pitest.mutationtest.engine.gregor.mutators.IncrementsMut
 Grafo.java,ds.Grafo,org.pitest.mutationtest.engine.gregor.mutators.InlineConstantMutator,<init>,17,SURVIVED,none
 Grafo.java,ds.Grafo,org.pitest.mutationtest.engine.gregor.mutators.InlineConstantMutator,<init>,18,SURVIVED,none
 Grafo.java,ds.Grafo,org.pitest.mutationtest.engine.gregor.mutators.InlineConstantMutator,<init>,22,SURVIVED,none
-Grafo.java,ds.Grafo,org.pitest.mutationtest.engine.gregor.mutators.InlineConstantMutator,<init>,23,KILLED,ds.GrafoTest32.testPrimeiroListaAdj(ds.GrafoTest32)
+Grafo.java,ds.Grafo,org.pitest.mutationtest.engine.gregor.mutators.InlineConstantMutator,<init>,23,KILLED,ds.GrafoTest32.testListaAdjVazia(ds.GrafoTest32)
 Grafo.java,ds.Grafo,org.pitest.mutationtest.engine.gregor.mutators.InlineConstantMutator,<init>,24,SURVIVED,none
 Grafo.java,ds.Grafo,org.pitest.mutationtest.engine.gregor.mutators.MathMutator,<init>,18,KILLED,ds.GrafoTest32.testInsereAresta(ds.GrafoTest32)
 Grafo.java,ds.Grafo,org.pitest.mutationtest.engine.gregor.mutators.MathMutator,<init>,18,KILLED,ds.GrafoTest32.testInsereAresta(ds.GrafoTest32)

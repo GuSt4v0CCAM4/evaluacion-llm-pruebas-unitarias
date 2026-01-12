@@ -5,7 +5,7 @@ Grafo.java,ds.Grafo,org.pitest.mutationtest.engine.gregor.mutators.InlineConstan
 Grafo.java,ds.Grafo,org.pitest.mutationtest.engine.gregor.mutators.InlineConstantMutator,<init>,22,SURVIVED,none
 Grafo.java,ds.Grafo,org.pitest.mutationtest.engine.gregor.mutators.InlineConstantMutator,<init>,23,KILLED,ds.GrafoTest19.testListaAdjVazia(ds.GrafoTest19)
 Grafo.java,ds.Grafo,org.pitest.mutationtest.engine.gregor.mutators.InlineConstantMutator,<init>,24,SURVIVED,none
-Grafo.java,ds.Grafo,org.pitest.mutationtest.engine.gregor.mutators.MathMutator,<init>,18,KILLED,ds.GrafoTest19.testPrimeiroListaAdj(ds.GrafoTest19)
+Grafo.java,ds.Grafo,org.pitest.mutationtest.engine.gregor.mutators.MathMutator,<init>,18,KILLED,ds.GrafoTest19.testListaAdjVazia(ds.GrafoTest19)
 Grafo.java,ds.Grafo,org.pitest.mutationtest.engine.gregor.mutators.MathMutator,<init>,18,KILLED,ds.GrafoTest19.testNumVertices(ds.GrafoTest19)
 Grafo.java,ds.Grafo,org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator,<init>,22,KILLED,ds.GrafoTest19.testInsereAresta(ds.GrafoTest19)
 Grafo.java,ds.Grafo,org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutator_ORDER_ELSE,<init>,22,KILLED,ds.GrafoTest19.testInsereAresta(ds.GrafoTest19)
@@ -15,7 +15,7 @@ Grafo.java,ds.Grafo,org.pitest.mutationtest.engine.gregor.mutators.experimental.
 Grafo.java,ds.Grafo,org.pitest.mutationtest.engine.gregor.mutators.experimental.MemberVariableMutator,<init>,20,KILLED,ds.GrafoTest19.testNumVertices(ds.GrafoTest19)
 Grafo.java,ds.Grafo,org.pitest.mutationtest.engine.gregor.mutators.experimental.MemberVariableMutator,<init>,20,KILLED,ds.GrafoTest19.testNumVertices(ds.GrafoTest19)
 Grafo.java,ds.Grafo,org.pitest.mutationtest.engine.gregor.mutators.experimental.MemberVariableMutator,<init>,21,KILLED,ds.GrafoTest19.testNumVertices(ds.GrafoTest19)
-Grafo.java,ds.Grafo,org.pitest.mutationtest.engine.gregor.mutators.experimental.MemberVariableMutator,<init>,26,KILLED,ds.GrafoTest19.testPrimeiroListaAdj(ds.GrafoTest19)
+Grafo.java,ds.Grafo,org.pitest.mutationtest.engine.gregor.mutators.experimental.MemberVariableMutator,<init>,26,KILLED,ds.GrafoTest19.testListaAdjVazia(ds.GrafoTest19)
 Grafo.java,ds.Grafo,org.pitest.mutationtest.engine.gregor.mutators.BooleanFalseReturnValsMutator,existeAresta,51,KILLED,ds.GrafoTest19.testInsereAresta(ds.GrafoTest19)
 Grafo.java,ds.Grafo,org.pitest.mutationtest.engine.gregor.mutators.BooleanTrueReturnValsMutator,existeAresta,52,KILLED,ds.GrafoTest19.testRetiraAresta(ds.GrafoTest19)
 Grafo.java,ds.Grafo,org.pitest.mutationtest.engine.gregor.mutators.InlineConstantMutator,existeAresta,51,KILLED,ds.GrafoTest19.testInsereAresta(ds.GrafoTest19)
@@ -84,9 +84,9 @@ Grafo.java,ds.Grafo,org.pitest.mutationtest.engine.gregor.mutators.experimental.
 Grafo.java,ds.Grafo,org.pitest.mutationtest.engine.gregor.mutators.InlineConstantMutator,insereAresta,43,KILLED,ds.GrafoTest19.testPrimeiroListaAdj(ds.GrafoTest19)
 Grafo.java,ds.Grafo,org.pitest.mutationtest.engine.gregor.mutators.InlineConstantMutator,insereAresta,46,KILLED,ds.GrafoTest19.testProxAdj(ds.GrafoTest19)
 Grafo.java,ds.Grafo,org.pitest.mutationtest.engine.gregor.mutators.MathMutator,insereAresta,43,KILLED,ds.GrafoTest19.testInsereAresta(ds.GrafoTest19)
-Grafo.java,ds.Grafo,org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator,insereAresta,40,KILLED,ds.GrafoTest19.testPrimeiroListaAdj(ds.GrafoTest19)
+Grafo.java,ds.Grafo,org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator,insereAresta,40,KILLED,ds.GrafoTest19.testListaAdjVazia(ds.GrafoTest19)
 Grafo.java,ds.Grafo,org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutator_EQUAL_ELSE,insereAresta,40,SURVIVED,none
-Grafo.java,ds.Grafo,org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutator_EQUAL_IF,insereAresta,40,KILLED,ds.GrafoTest19.testPrimeiroListaAdj(ds.GrafoTest19)
+Grafo.java,ds.Grafo,org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutator_EQUAL_IF,insereAresta,40,KILLED,ds.GrafoTest19.testListaAdjVazia(ds.GrafoTest19)
 Grafo.java,ds.Grafo,org.pitest.mutationtest.engine.gregor.mutators.VoidMethodCallMutator,insereAresta,41,NO_COVERAGE,none
 Grafo.java,ds.Grafo,org.pitest.mutationtest.engine.gregor.mutators.experimental.MemberVariableMutator,insereAresta,43,KILLED,ds.GrafoTest19.testPrimeiroListaAdj(ds.GrafoTest19)
 Grafo.java,ds.Grafo,org.pitest.mutationtest.engine.gregor.mutators.BooleanFalseReturnValsMutator,listaAdjVazia,56,KILLED,ds.GrafoTest19.testListaAdjVazia(ds.GrafoTest19)

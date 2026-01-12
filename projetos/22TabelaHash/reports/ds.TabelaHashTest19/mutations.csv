@@ -1,7 +1,7 @@
 TabelaHash.java,ds.TabelaHash,org.pitest.mutationtest.engine.gregor.mutators.ConditionalsBoundaryMutator,<init>,41,KILLED,ds.TabelaHashTest19.testInsere(ds.TabelaHashTest19)
 TabelaHash.java,ds.TabelaHash,org.pitest.mutationtest.engine.gregor.mutators.ConstructorCallMutator,<init>,41,KILLED,ds.TabelaHashTest19.testInsere(ds.TabelaHashTest19)
 TabelaHash.java,ds.TabelaHash,org.pitest.mutationtest.engine.gregor.mutators.IncrementsMutator,<init>,41,KILLED,ds.TabelaHashTest19.testInsere(ds.TabelaHashTest19)
-TabelaHash.java,ds.TabelaHash,org.pitest.mutationtest.engine.gregor.mutators.InlineConstantMutator,<init>,38,SURVIVED,none
+TabelaHash.java,ds.TabelaHash,org.pitest.mutationtest.engine.gregor.mutators.InlineConstantMutator,<init>,38,KILLED,ds.TabelaHashTest19.testRetiraException(ds.TabelaHashTest19)
 TabelaHash.java,ds.TabelaHash,org.pitest.mutationtest.engine.gregor.mutators.InlineConstantMutator,<init>,39,SURVIVED,none
 TabelaHash.java,ds.TabelaHash,org.pitest.mutationtest.engine.gregor.mutators.InlineConstantMutator,<init>,41,KILLED,ds.TabelaHashTest19.testInsere(ds.TabelaHashTest19)
 TabelaHash.java,ds.TabelaHash,org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator,<init>,41,KILLED,ds.TabelaHashTest19.testInsere(ds.TabelaHashTest19)
@@ -27,7 +27,7 @@ TabelaHash.java,ds.TabelaHash,org.pitest.mutationtest.engine.gregor.mutators.Ret
 TabelaHash.java,ds.TabelaHash,org.pitest.mutationtest.engine.gregor.mutators.ConditionalsBoundaryMutator,h,32,KILLED,ds.TabelaHashTest19.testInsere(ds.TabelaHashTest19)
 TabelaHash.java,ds.TabelaHash,org.pitest.mutationtest.engine.gregor.mutators.IncrementsMutator,h,32,KILLED,ds.TabelaHashTest19.testInsere(ds.TabelaHashTest19)
 TabelaHash.java,ds.TabelaHash,org.pitest.mutationtest.engine.gregor.mutators.InlineConstantMutator,h,31,SURVIVED,none
-TabelaHash.java,ds.TabelaHash,org.pitest.mutationtest.engine.gregor.mutators.InlineConstantMutator,h,32,SURVIVED,none
+TabelaHash.java,ds.TabelaHash,org.pitest.mutationtest.engine.gregor.mutators.InlineConstantMutator,h,32,KILLED,ds.TabelaHashTest19.testRetiraException(ds.TabelaHashTest19)
 TabelaHash.java,ds.TabelaHash,org.pitest.mutationtest.engine.gregor.mutators.MathMutator,h,33,KILLED,ds.TabelaHashTest19.testRetiraException(ds.TabelaHashTest19)
 TabelaHash.java,ds.TabelaHash,org.pitest.mutationtest.engine.gregor.mutators.MathMutator,h,33,KILLED,ds.TabelaHashTest19.testInsere(ds.TabelaHashTest19)
 TabelaHash.java,ds.TabelaHash,org.pitest.mutationtest.engine.gregor.mutators.MathMutator,h,34,KILLED,ds.TabelaHashTest19.testInsere(ds.TabelaHashTest19)
@@ -58,7 +58,7 @@ TabelaHash.java,ds.TabelaHash,org.pitest.mutationtest.engine.gregor.mutators.exp
 TabelaHash.java,ds.TabelaHash,org.pitest.mutationtest.engine.gregor.mutators.experimental.NakedReceiverMutator,imprime,72,SURVIVED,none
 TabelaHash.java,ds.TabelaHash,org.pitest.mutationtest.engine.gregor.mutators.ConstructorCallMutator,insere,58,KILLED,ds.TabelaHashTest19.testInsere(ds.TabelaHashTest19)
 TabelaHash.java,ds.TabelaHash,org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator,insere,56,KILLED,ds.TabelaHashTest19.testInsere(ds.TabelaHashTest19)
-TabelaHash.java,ds.TabelaHash,org.pitest.mutationtest.engine.gregor.mutators.NonVoidMethodCallMutator,insere,56,SURVIVED,none
+TabelaHash.java,ds.TabelaHash,org.pitest.mutationtest.engine.gregor.mutators.NonVoidMethodCallMutator,insere,56,KILLED,ds.TabelaHashTest19.testRetiraException(ds.TabelaHashTest19)
 TabelaHash.java,ds.TabelaHash,org.pitest.mutationtest.engine.gregor.mutators.NonVoidMethodCallMutator,insere,57,KILLED,ds.TabelaHashTest19.testInsere(ds.TabelaHashTest19)
 TabelaHash.java,ds.TabelaHash,org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutator_EQUAL_ELSE,insere,56,KILLED,ds.TabelaHashTest19.testInsere(ds.TabelaHashTest19)
 TabelaHash.java,ds.TabelaHash,org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutator_EQUAL_IF,insere,56,SURVIVED,none
@@ -77,13 +77,13 @@ TabelaHash.java,ds.TabelaHash,org.pitest.mutationtest.engine.gregor.mutators.Rem
 TabelaHash.java,ds.TabelaHash,org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutator_EQUAL_IF,pesquisa,47,KILLED,ds.TabelaHashTest19.testInsere(ds.TabelaHashTest19)
 TabelaHash.java,ds.TabelaHash,org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutator_EQUAL_IF,pesquisa,50,KILLED,ds.TabelaHashTest19.testInsere(ds.TabelaHashTest19)
 TabelaHash.java,ds.TabelaHash,org.pitest.mutationtest.engine.gregor.mutators.ReturnValsMutator,pesquisa,47,KILLED,ds.TabelaHashTest19.testInsere(ds.TabelaHashTest19)
-TabelaHash.java,ds.TabelaHash,org.pitest.mutationtest.engine.gregor.mutators.ReturnValsMutator,pesquisa,50,KILLED,ds.TabelaHashTest19.testImprime(ds.TabelaHashTest19)
+TabelaHash.java,ds.TabelaHash,org.pitest.mutationtest.engine.gregor.mutators.ReturnValsMutator,pesquisa,50,SURVIVED,none
 TabelaHash.java,ds.TabelaHash,org.pitest.mutationtest.engine.gregor.mutators.ReturnValsMutator,pesquisa,51,KILLED,ds.TabelaHashTest19.testInsere(ds.TabelaHashTest19)
 TabelaHash.java,ds.TabelaHash,org.pitest.mutationtest.engine.gregor.mutators.ArgumentPropagationMutator,retira,65,KILLED,ds.TabelaHashTest19.testRetiraException(ds.TabelaHashTest19)
 TabelaHash.java,ds.TabelaHash,org.pitest.mutationtest.engine.gregor.mutators.ConstructorCallMutator,retira,65,KILLED,ds.TabelaHashTest19.testRetira(ds.TabelaHashTest19)
-TabelaHash.java,ds.TabelaHash,org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator,retira,66,KILLED,ds.TabelaHashTest19.testRetiraException(ds.TabelaHashTest19)
+TabelaHash.java,ds.TabelaHash,org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator,retira,66,SURVIVED,none
 TabelaHash.java,ds.TabelaHash,org.pitest.mutationtest.engine.gregor.mutators.NonVoidMethodCallMutator,retira,64,KILLED,ds.TabelaHashTest19.testRetira(ds.TabelaHashTest19)
 TabelaHash.java,ds.TabelaHash,org.pitest.mutationtest.engine.gregor.mutators.NonVoidMethodCallMutator,retira,65,KILLED,ds.TabelaHashTest19.testRetiraException(ds.TabelaHashTest19)
-TabelaHash.java,ds.TabelaHash,org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutator_EQUAL_ELSE,retira,66,KILLED,ds.TabelaHashTest19.testRetiraException(ds.TabelaHashTest19)
-TabelaHash.java,ds.TabelaHash,org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutator_EQUAL_IF,retira,66,KILLED,ds.TabelaHashTest19.testRetiraException(ds.TabelaHashTest19)
+TabelaHash.java,ds.TabelaHash,org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutator_EQUAL_ELSE,retira,66,SURVIVED,none
+TabelaHash.java,ds.TabelaHash,org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutator_EQUAL_IF,retira,66,SURVIVED,none
 TabelaHash.java,ds.TabelaHash,org.pitest.mutationtest.engine.gregor.mutators.VoidMethodCallMutator,retira,66,SURVIVED,none

@@ -28,7 +28,7 @@ TabelaHash.java,ds.TabelaHash,org.pitest.mutationtest.engine.gregor.mutators.Inc
 TabelaHash.java,ds.TabelaHash,org.pitest.mutationtest.engine.gregor.mutators.InlineConstantMutator,h,29,SURVIVED,none
 TabelaHash.java,ds.TabelaHash,org.pitest.mutationtest.engine.gregor.mutators.InlineConstantMutator,h,30,SURVIVED,none
 TabelaHash.java,ds.TabelaHash,org.pitest.mutationtest.engine.gregor.mutators.MathMutator,h,31,SURVIVED,none
-TabelaHash.java,ds.TabelaHash,org.pitest.mutationtest.engine.gregor.mutators.MathMutator,h,31,KILLED,ds.TabelaHashTest5.testPesquisaSemSucesso(ds.TabelaHashTest5)
+TabelaHash.java,ds.TabelaHash,org.pitest.mutationtest.engine.gregor.mutators.MathMutator,h,31,KILLED,ds.TabelaHashTest5.testInsercao(ds.TabelaHashTest5)
 TabelaHash.java,ds.TabelaHash,org.pitest.mutationtest.engine.gregor.mutators.MathMutator,h,32,KILLED,ds.TabelaHashTest5.testPesquisaSemSucesso(ds.TabelaHashTest5)
 TabelaHash.java,ds.TabelaHash,org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator,h,30,SURVIVED,none
 TabelaHash.java,ds.TabelaHash,org.pitest.mutationtest.engine.gregor.mutators.NonVoidMethodCallMutator,h,30,SURVIVED,none
@@ -63,10 +63,10 @@ TabelaHash.java,ds.TabelaHash,org.pitest.mutationtest.engine.gregor.mutators.exp
 TabelaHash.java,ds.TabelaHash,org.pitest.mutationtest.engine.gregor.mutators.ConditionalsBoundaryMutator,insere,64,SURVIVED,none
 TabelaHash.java,ds.TabelaHash,org.pitest.mutationtest.engine.gregor.mutators.ConditionalsBoundaryMutator,insere,67,SURVIVED,none
 TabelaHash.java,ds.TabelaHash,org.pitest.mutationtest.engine.gregor.mutators.ConstructorCallMutator,insere,67,KILLED,ds.TabelaHashTest5.testInsercao(ds.TabelaHashTest5)
-TabelaHash.java,ds.TabelaHash,org.pitest.mutationtest.engine.gregor.mutators.IncrementsMutator,insere,66,NO_COVERAGE,none
-TabelaHash.java,ds.TabelaHash,org.pitest.mutationtest.engine.gregor.mutators.InlineConstantMutator,insere,63,SURVIVED,none
-TabelaHash.java,ds.TabelaHash,org.pitest.mutationtest.engine.gregor.mutators.MathMutator,insere,66,NO_COVERAGE,none
-TabelaHash.java,ds.TabelaHash,org.pitest.mutationtest.engine.gregor.mutators.MathMutator,insere,66,NO_COVERAGE,none
+TabelaHash.java,ds.TabelaHash,org.pitest.mutationtest.engine.gregor.mutators.IncrementsMutator,insere,66,SURVIVED,none
+TabelaHash.java,ds.TabelaHash,org.pitest.mutationtest.engine.gregor.mutators.InlineConstantMutator,insere,63,KILLED,ds.TabelaHashTest5.testInsercao(ds.TabelaHashTest5)
+TabelaHash.java,ds.TabelaHash,org.pitest.mutationtest.engine.gregor.mutators.MathMutator,insere,66,KILLED,ds.TabelaHashTest5.testInsercao(ds.TabelaHashTest5)
+TabelaHash.java,ds.TabelaHash,org.pitest.mutationtest.engine.gregor.mutators.MathMutator,insere,66,SURVIVED,none
 TabelaHash.java,ds.TabelaHash,org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator,insere,61,KILLED,ds.TabelaHashTest5.testInsercao(ds.TabelaHashTest5)
 TabelaHash.java,ds.TabelaHash,org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator,insere,64,KILLED,ds.TabelaHashTest5.testInsercao(ds.TabelaHashTest5)
 TabelaHash.java,ds.TabelaHash,org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator,insere,64,SURVIVED,none
@@ -75,7 +75,7 @@ TabelaHash.java,ds.TabelaHash,org.pitest.mutationtest.engine.gregor.mutators.Neg
 TabelaHash.java,ds.TabelaHash,org.pitest.mutationtest.engine.gregor.mutators.NonVoidMethodCallMutator,insere,61,SURVIVED,none
 TabelaHash.java,ds.TabelaHash,org.pitest.mutationtest.engine.gregor.mutators.NonVoidMethodCallMutator,insere,62,KILLED,ds.TabelaHashTest5.testInsercao(ds.TabelaHashTest5)
 TabelaHash.java,ds.TabelaHash,org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutator_EQUAL_ELSE,insere,61,KILLED,ds.TabelaHashTest5.testInsercao(ds.TabelaHashTest5)
-TabelaHash.java,ds.TabelaHash,org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutator_EQUAL_ELSE,insere,64,KILLED,ds.TabelaHashTest5.testInsercao(ds.TabelaHashTest5)
+TabelaHash.java,ds.TabelaHash,org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutator_EQUAL_ELSE,insere,64,SURVIVED,none
 TabelaHash.java,ds.TabelaHash,org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutator_EQUAL_ELSE,insere,64,SURVIVED,none
 TabelaHash.java,ds.TabelaHash,org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutator_EQUAL_IF,insere,61,SURVIVED,none
 TabelaHash.java,ds.TabelaHash,org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutator_EQUAL_IF,insere,64,KILLED,ds.TabelaHashTest5.testInsercao(ds.TabelaHashTest5)
@@ -86,7 +86,7 @@ TabelaHash.java,ds.TabelaHash,org.pitest.mutationtest.engine.gregor.mutators.Rem
 TabelaHash.java,ds.TabelaHash,org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutator_ORDER_IF,insere,67,SURVIVED,none
 TabelaHash.java,ds.TabelaHash,org.pitest.mutationtest.engine.gregor.mutators.VoidMethodCallMutator,insere,68,NO_COVERAGE,none
 TabelaHash.java,ds.TabelaHash,org.pitest.mutationtest.engine.gregor.mutators.VoidMethodCallMutator,insere,69,SURVIVED,none
-TabelaHash.java,ds.TabelaHash,org.pitest.mutationtest.engine.gregor.mutators.experimental.RemoveIncrementsMutator,insere,66,NO_COVERAGE,none
+TabelaHash.java,ds.TabelaHash,org.pitest.mutationtest.engine.gregor.mutators.experimental.RemoveIncrementsMutator,insere,66,SURVIVED,none
 TabelaHash.java,ds.TabelaHash,org.pitest.mutationtest.engine.gregor.mutators.ConditionalsBoundaryMutator,pesquisa,56,KILLED,ds.TabelaHashTest5.testPesquisaSemSucesso(ds.TabelaHashTest5)
 TabelaHash.java,ds.TabelaHash,org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator,pesquisa,56,KILLED,ds.TabelaHashTest5.testPesquisaSemSucesso(ds.TabelaHashTest5)
 TabelaHash.java,ds.TabelaHash,org.pitest.mutationtest.engine.gregor.mutators.NonVoidMethodCallMutator,pesquisa,55,KILLED,ds.TabelaHashTest5.testPesquisaSemSucesso(ds.TabelaHashTest5)
@@ -96,8 +96,8 @@ TabelaHash.java,ds.TabelaHash,org.pitest.mutationtest.engine.gregor.mutators.Rem
 TabelaHash.java,ds.TabelaHash,org.pitest.mutationtest.engine.gregor.mutators.ReturnValsMutator,pesquisa,56,KILLED,ds.TabelaHashTest5.testInsercao(ds.TabelaHashTest5)
 TabelaHash.java,ds.TabelaHash,org.pitest.mutationtest.engine.gregor.mutators.ReturnValsMutator,pesquisa,57,KILLED,ds.TabelaHashTest5.testPesquisaSemSucesso(ds.TabelaHashTest5)
 TabelaHash.java,ds.TabelaHash,org.pitest.mutationtest.engine.gregor.mutators.ConditionalsBoundaryMutator,pesquisaIndice,47,SURVIVED,none
-TabelaHash.java,ds.TabelaHash,org.pitest.mutationtest.engine.gregor.mutators.IncrementsMutator,pesquisaIndice,48,SURVIVED,none
-TabelaHash.java,ds.TabelaHash,org.pitest.mutationtest.engine.gregor.mutators.InlineConstantMutator,pesquisaIndice,45,SURVIVED,none
+TabelaHash.java,ds.TabelaHash,org.pitest.mutationtest.engine.gregor.mutators.IncrementsMutator,pesquisaIndice,48,KILLED,ds.TabelaHashTest5.testRemocao(ds.TabelaHashTest5)
+TabelaHash.java,ds.TabelaHash,org.pitest.mutationtest.engine.gregor.mutators.InlineConstantMutator,pesquisaIndice,45,KILLED,ds.TabelaHashTest5.testInsercao(ds.TabelaHashTest5)
 TabelaHash.java,ds.TabelaHash,org.pitest.mutationtest.engine.gregor.mutators.MathMutator,pesquisaIndice,48,SURVIVED,none
 TabelaHash.java,ds.TabelaHash,org.pitest.mutationtest.engine.gregor.mutators.MathMutator,pesquisaIndice,48,KILLED,ds.TabelaHashTest5.testRemocao(ds.TabelaHashTest5)
 TabelaHash.java,ds.TabelaHash,org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator,pesquisaIndice,46,KILLED,ds.TabelaHashTest5.testPesquisaSemSucesso(ds.TabelaHashTest5)
@@ -118,7 +118,7 @@ TabelaHash.java,ds.TabelaHash,org.pitest.mutationtest.engine.gregor.mutators.Rem
 TabelaHash.java,ds.TabelaHash,org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutator_EQUAL_IF,pesquisaIndice,47,KILLED,ds.TabelaHashTest5.testInsercao(ds.TabelaHashTest5)
 TabelaHash.java,ds.TabelaHash,org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutator_EQUAL_IF,pesquisaIndice,49,KILLED,ds.TabelaHashTest5.testPesquisaSemSucesso(ds.TabelaHashTest5)
 TabelaHash.java,ds.TabelaHash,org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutator_EQUAL_IF,pesquisaIndice,50,SURVIVED,none
-TabelaHash.java,ds.TabelaHash,org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutator_ORDER_ELSE,pesquisaIndice,47,SURVIVED,none
+TabelaHash.java,ds.TabelaHash,org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutator_ORDER_ELSE,pesquisaIndice,47,KILLED,ds.TabelaHashTest5.testInsercao(ds.TabelaHashTest5)
 TabelaHash.java,ds.TabelaHash,org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutator_ORDER_IF,pesquisaIndice,47,SURVIVED,none
 TabelaHash.java,ds.TabelaHash,org.pitest.mutationtest.engine.gregor.mutators.ReturnValsMutator,pesquisaIndice,50,KILLED,ds.TabelaHashTest5.testInsercao(ds.TabelaHashTest5)
 TabelaHash.java,ds.TabelaHash,org.pitest.mutationtest.engine.gregor.mutators.ReturnValsMutator,pesquisaIndice,51,KILLED,ds.TabelaHashTest5.testPesquisaSemSucesso(ds.TabelaHashTest5)
@@ -158,7 +158,7 @@ TabelaHash.java,ds.TabelaHash,org.pitest.mutationtest.engine.gregor.mutators.exp
 TabelaHash.java,ds.TabelaHash,org.pitest.mutationtest.engine.gregor.mutators.ConditionalsBoundaryMutator,retira,74,SURVIVED,none
 TabelaHash.java,ds.TabelaHash,org.pitest.mutationtest.engine.gregor.mutators.InlineConstantMutator,retira,75,SURVIVED,none
 TabelaHash.java,ds.TabelaHash,org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator,retira,74,KILLED,ds.TabelaHashTest5.testRemocao(ds.TabelaHashTest5)
-TabelaHash.java,ds.TabelaHash,org.pitest.mutationtest.engine.gregor.mutators.NonVoidMethodCallMutator,retira,73,KILLED,ds.TabelaHashTest5.testRemocao(ds.TabelaHashTest5)
+TabelaHash.java,ds.TabelaHash,org.pitest.mutationtest.engine.gregor.mutators.NonVoidMethodCallMutator,retira,73,SURVIVED,none
 TabelaHash.java,ds.TabelaHash,org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutator_ORDER_ELSE,retira,74,KILLED,ds.TabelaHashTest5.testRemocao(ds.TabelaHashTest5)
 TabelaHash.java,ds.TabelaHash,org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutator_ORDER_IF,retira,74,SURVIVED,none
 TabelaHash.java,ds.TabelaHash,org.pitest.mutationtest.engine.gregor.mutators.VoidMethodCallMutator,retira,76,NO_COVERAGE,none

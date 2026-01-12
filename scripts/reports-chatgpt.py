@@ -20,6 +20,14 @@ from datetime import datetime
 #     tests: 30 - 33: 0.0
 
 def set_temperature(i):
+    """Map test number to temperature value.
+    
+    Args:
+        i: Test number (0-33)
+    
+    Returns:
+        float: Temperature value between 0.0 and 1.0
+    """
     if(i < 3): return 0.7
     if(i < 6): return 0.8
     if(i < 9): return 0.9
@@ -89,8 +97,7 @@ for x in dados:
     output.close()
     
 dados.close()
-output.close()
-outputAll.close
+outputAll.close()
 error.close()
     
         

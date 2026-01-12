@@ -1,7 +1,7 @@
 Tabela.java,ds.Tabela,org.pitest.mutationtest.engine.gregor.mutators.InlineConstantMutator,<init>,8,SURVIVED,none
 Tabela.java,ds.Tabela,org.pitest.mutationtest.engine.gregor.mutators.InlineConstantMutator,<init>,9,SURVIVED,none
 Tabela.java,ds.Tabela,org.pitest.mutationtest.engine.gregor.mutators.InlineConstantMutator,<init>,10,KILLED,ds.TabelaTest27.testInsere(ds.TabelaTest27)
-Tabela.java,ds.Tabela,org.pitest.mutationtest.engine.gregor.mutators.experimental.MemberVariableMutator,<init>,9,KILLED,ds.TabelaTest27.testInsere(ds.TabelaTest27)
+Tabela.java,ds.Tabela,org.pitest.mutationtest.engine.gregor.mutators.experimental.MemberVariableMutator,<init>,9,KILLED,ds.TabelaTest27.testPesquisa(ds.TabelaTest27)
 Tabela.java,ds.Tabela,org.pitest.mutationtest.engine.gregor.mutators.experimental.MemberVariableMutator,<init>,10,SURVIVED,none
 Tabela.java,ds.Tabela,org.pitest.mutationtest.engine.gregor.mutators.ConditionalsBoundaryMutator,binaria,28,SURVIVED,none
 Tabela.java,ds.Tabela,org.pitest.mutationtest.engine.gregor.mutators.ConditionalsBoundaryMutator,binaria,30,KILLED,ds.TabelaTest27.testBinaria(ds.TabelaTest27)

@@ -19,7 +19,7 @@ Grafo.java,ds.Grafo,org.pitest.mutationtest.engine.gregor.mutators.RemoveConditi
 Grafo.java,ds.Grafo,org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutator_ORDER_IF,<init>,15,KILLED,ds.GrafoTest27.testInsereAresta(ds.GrafoTest27)
 Grafo.java,ds.Grafo,org.pitest.mutationtest.engine.gregor.mutators.experimental.MemberVariableMutator,<init>,11,KILLED,ds.GrafoTest27.testInsereAresta(ds.GrafoTest27)
 Grafo.java,ds.Grafo,org.pitest.mutationtest.engine.gregor.mutators.experimental.MemberVariableMutator,<init>,12,KILLED,ds.GrafoTest27.testInsereAresta(ds.GrafoTest27)
-Grafo.java,ds.Grafo,org.pitest.mutationtest.engine.gregor.mutators.experimental.MemberVariableMutator,<init>,13,KILLED,ds.GrafoTest27.testPrimeiroListaAdj(ds.GrafoTest27)
+Grafo.java,ds.Grafo,org.pitest.mutationtest.engine.gregor.mutators.experimental.MemberVariableMutator,<init>,13,KILLED,ds.GrafoTest27.testListaAdjVazia(ds.GrafoTest27)
 Grafo.java,ds.Grafo,org.pitest.mutationtest.engine.gregor.mutators.experimental.RemoveIncrementsMutator,<init>,14,TIMED_OUT,none
 Grafo.java,ds.Grafo,org.pitest.mutationtest.engine.gregor.mutators.BooleanFalseReturnValsMutator,existeAresta,24,KILLED,ds.GrafoTest27.testInsereAresta(ds.GrafoTest27)
 Grafo.java,ds.Grafo,org.pitest.mutationtest.engine.gregor.mutators.BooleanTrueReturnValsMutator,existeAresta,24,KILLED,ds.GrafoTest27.testInsereAresta(ds.GrafoTest27)

@@ -107,7 +107,7 @@ ArvoreBinaria.java,ds.ArvoreBinaria,org.pitest.mutationtest.engine.gregor.mutato
 ArvoreBinaria.java,ds.ArvoreBinaria,org.pitest.mutationtest.engine.gregor.mutators.experimental.MemberVariableMutator,retira,41,SURVIVED,none
 ArvoreBinaria.java,ds.ArvoreBinaria,org.pitest.mutationtest.engine.gregor.mutators.experimental.MemberVariableMutator,retira,45,NO_COVERAGE,none
 ArvoreBinaria.java,ds.ArvoreBinaria,org.pitest.mutationtest.engine.gregor.mutators.VoidMethodCallMutator,testa,85,SURVIVED,none
-ArvoreBinaria.java,ds.ArvoreBinaria,org.pitest.mutationtest.engine.gregor.mutators.ConditionalsBoundaryMutator,testa,70,SURVIVED,none
+ArvoreBinaria.java,ds.ArvoreBinaria,org.pitest.mutationtest.engine.gregor.mutators.ConditionalsBoundaryMutator,testa,70,NO_COVERAGE,none
 ArvoreBinaria.java,ds.ArvoreBinaria,org.pitest.mutationtest.engine.gregor.mutators.ConditionalsBoundaryMutator,testa,76,SURVIVED,none
 ArvoreBinaria.java,ds.ArvoreBinaria,org.pitest.mutationtest.engine.gregor.mutators.ConstructorCallMutator,testa,71,NO_COVERAGE,none
 ArvoreBinaria.java,ds.ArvoreBinaria,org.pitest.mutationtest.engine.gregor.mutators.ConstructorCallMutator,testa,77,NO_COVERAGE,none
@@ -115,10 +115,10 @@ ArvoreBinaria.java,ds.ArvoreBinaria,org.pitest.mutationtest.engine.gregor.mutato
 ArvoreBinaria.java,ds.ArvoreBinaria,org.pitest.mutationtest.engine.gregor.mutators.InlineConstantMutator,testa,78,NO_COVERAGE,none
 ArvoreBinaria.java,ds.ArvoreBinaria,org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator,testa,68,SURVIVED,none
 ArvoreBinaria.java,ds.ArvoreBinaria,org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator,testa,69,KILLED,ds.ArvoreBinariaTest5.testIntegridade(ds.ArvoreBinariaTest5)
-ArvoreBinaria.java,ds.ArvoreBinaria,org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator,testa,70,RUN_ERROR,none
+ArvoreBinaria.java,ds.ArvoreBinaria,org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator,testa,70,NO_COVERAGE,none
 ArvoreBinaria.java,ds.ArvoreBinaria,org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator,testa,75,KILLED,ds.ArvoreBinariaTest5.testIntegridade(ds.ArvoreBinariaTest5)
 ArvoreBinaria.java,ds.ArvoreBinaria,org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator,testa,76,RUN_ERROR,none
-ArvoreBinaria.java,ds.ArvoreBinaria,org.pitest.mutationtest.engine.gregor.mutators.NonVoidMethodCallMutator,testa,70,SURVIVED,none
+ArvoreBinaria.java,ds.ArvoreBinaria,org.pitest.mutationtest.engine.gregor.mutators.NonVoidMethodCallMutator,testa,70,NO_COVERAGE,none
 ArvoreBinaria.java,ds.ArvoreBinaria,org.pitest.mutationtest.engine.gregor.mutators.NonVoidMethodCallMutator,testa,71,NO_COVERAGE,none
 ArvoreBinaria.java,ds.ArvoreBinaria,org.pitest.mutationtest.engine.gregor.mutators.NonVoidMethodCallMutator,testa,71,NO_COVERAGE,none
 ArvoreBinaria.java,ds.ArvoreBinaria,org.pitest.mutationtest.engine.gregor.mutators.NonVoidMethodCallMutator,testa,71,NO_COVERAGE,none
@@ -140,9 +140,9 @@ ArvoreBinaria.java,ds.ArvoreBinaria,org.pitest.mutationtest.engine.gregor.mutato
 ArvoreBinaria.java,ds.ArvoreBinaria,org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutator_EQUAL_IF,testa,68,SURVIVED,none
 ArvoreBinaria.java,ds.ArvoreBinaria,org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutator_EQUAL_IF,testa,69,KILLED,ds.ArvoreBinariaTest5.testIntegridade(ds.ArvoreBinariaTest5)
 ArvoreBinaria.java,ds.ArvoreBinaria,org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutator_EQUAL_IF,testa,75,KILLED,ds.ArvoreBinariaTest5.testIntegridade(ds.ArvoreBinariaTest5)
-ArvoreBinaria.java,ds.ArvoreBinaria,org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutator_ORDER_ELSE,testa,70,SURVIVED,none
+ArvoreBinaria.java,ds.ArvoreBinaria,org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutator_ORDER_ELSE,testa,70,NO_COVERAGE,none
 ArvoreBinaria.java,ds.ArvoreBinaria,org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutator_ORDER_ELSE,testa,76,SURVIVED,none
-ArvoreBinaria.java,ds.ArvoreBinaria,org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutator_ORDER_IF,testa,70,RUN_ERROR,none
+ArvoreBinaria.java,ds.ArvoreBinaria,org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutator_ORDER_IF,testa,70,NO_COVERAGE,none
 ArvoreBinaria.java,ds.ArvoreBinaria,org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutator_ORDER_IF,testa,76,RUN_ERROR,none
 ArvoreBinaria.java,ds.ArvoreBinaria,org.pitest.mutationtest.engine.gregor.mutators.VoidMethodCallMutator,testa,71,NO_COVERAGE,none
 ArvoreBinaria.java,ds.ArvoreBinaria,org.pitest.mutationtest.engine.gregor.mutators.VoidMethodCallMutator,testa,72,NO_COVERAGE,none

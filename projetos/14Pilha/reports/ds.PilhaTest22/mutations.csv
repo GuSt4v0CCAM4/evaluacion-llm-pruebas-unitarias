@@ -12,10 +12,10 @@ Pilha.java,ds.Pilha,org.pitest.mutationtest.engine.gregor.mutators.RemoveConditi
 Pilha.java,ds.Pilha,org.pitest.mutationtest.engine.gregor.mutators.ReturnValsMutator,desempilha,26,KILLED,ds.PilhaTest22.testDesempilha(ds.PilhaTest22)
 Pilha.java,ds.Pilha,org.pitest.mutationtest.engine.gregor.mutators.experimental.MemberVariableMutator,desempilha,24,KILLED,ds.PilhaTest22.testDesempilha(ds.PilhaTest22)
 Pilha.java,ds.Pilha,org.pitest.mutationtest.engine.gregor.mutators.experimental.MemberVariableMutator,desempilha,25,SURVIVED,none
-Pilha.java,ds.Pilha,org.pitest.mutationtest.engine.gregor.mutators.ConstructorCallMutator,empilha,15,KILLED,ds.PilhaTest22.testVazia(ds.PilhaTest22)
+Pilha.java,ds.Pilha,org.pitest.mutationtest.engine.gregor.mutators.ConstructorCallMutator,empilha,15,KILLED,ds.PilhaTest22.testEmpilha(ds.PilhaTest22)
 Pilha.java,ds.Pilha,org.pitest.mutationtest.engine.gregor.mutators.InlineConstantMutator,empilha,18,KILLED,ds.PilhaTest22.testEmpilha(ds.PilhaTest22)
 Pilha.java,ds.Pilha,org.pitest.mutationtest.engine.gregor.mutators.MathMutator,empilha,18,KILLED,ds.PilhaTest22.testEmpilha(ds.PilhaTest22)
-Pilha.java,ds.Pilha,org.pitest.mutationtest.engine.gregor.mutators.experimental.MemberVariableMutator,empilha,15,KILLED,ds.PilhaTest22.testVazia(ds.PilhaTest22)
+Pilha.java,ds.Pilha,org.pitest.mutationtest.engine.gregor.mutators.experimental.MemberVariableMutator,empilha,15,KILLED,ds.PilhaTest22.testEmpilha(ds.PilhaTest22)
 Pilha.java,ds.Pilha,org.pitest.mutationtest.engine.gregor.mutators.experimental.MemberVariableMutator,empilha,16,KILLED,ds.PilhaTest22.testDesempilha(ds.PilhaTest22)
 Pilha.java,ds.Pilha,org.pitest.mutationtest.engine.gregor.mutators.experimental.MemberVariableMutator,empilha,17,KILLED,ds.PilhaTest22.testDesempilha(ds.PilhaTest22)
 Pilha.java,ds.Pilha,org.pitest.mutationtest.engine.gregor.mutators.experimental.MemberVariableMutator,empilha,18,KILLED,ds.PilhaTest22.testEmpilha(ds.PilhaTest22)

@@ -1,0 +1,19 @@
+# Required packages for ChatGPT Unit Test Generation Evaluation
+# This file lists all Python dependencies needed to run the project scripts
+
+# Web scraping and HTML parsing
+beautifulsoup4>=4.12.0
+
+# Data analysis and manipulation
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Statistical analysis (ANOVA, Tukey HSD)
+statsmodels>=0.14.0
+
+# HTTP requests for OpenAI API
+requests>=2.31.0
+
+# Additional dependencies for statsmodels
+scipy>=1.10.0
+patsy>=0.5.3
